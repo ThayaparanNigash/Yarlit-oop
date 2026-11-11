@@ -1,0 +1,9 @@
+class MainStudent1{
+	public static void main(String args[]){
+
+		Student1 S=new Student1();
+
+		S.SetStudent(1200,"Rohan",70,65,75);
+		S.display();
+	}
+}

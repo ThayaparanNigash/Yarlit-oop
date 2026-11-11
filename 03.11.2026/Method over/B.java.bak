@@ -1,0 +1,18 @@
+class B extends A{
+	int x=100;
+	int y;
+	B(){
+		this.y=70;
+	}
+	void gety(){
+		System.out.println("By:"+this.y);
+		super.getx();
+	}
+	void getx(){
+		int x=500;  //local
+		System.out.println("Local:"+x);
+		System.out.println("Bx:"+x);
+		System.out.println("Ax:"+x);
+		
+	}
+}

@@ -1,0 +1,12 @@
+import PackA.A;
+import PackB.B;
+public class MainAB{
+	public static void main(String [] args){
+		
+		B objb = new B();
+		// objb.getx();
+		objb.gety();
+		/*A obja=new A();
+		obja.getx();*/
+	}
+}

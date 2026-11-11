@@ -1,0 +1,30 @@
+class Employee{
+	int id;
+	String name;
+	double basicsalary;
+	double bonus;
+	double netsalary;
+	
+	void SetEmployee(){
+		this.id=1000;
+		this.name="joy";
+		this.basicsalary=1000000;
+	}
+	void calcbonus(){
+		if(basicsalary>100000){
+			bonus=basicsalary*0.10;
+		}
+		else{
+			bonus=basicsalary*0.5;
+		}
+	}
+	void display(){
+		netsalary=basicsalary+bonus;
+		System.out.println("Id:"+id);
+		System.out.println("Name:"+name);
+		System.out.println("basicsalary:"+basicsalary);
+		System.out.println("bonus:"+bonus);
+		System.out.println("netsalary:"+netsalary);
+		
+	}
+}

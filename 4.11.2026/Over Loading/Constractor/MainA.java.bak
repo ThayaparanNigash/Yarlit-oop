@@ -1,0 +1,23 @@
+class MainStudent{
+	public static void main(String args[]){
+		A obja1=new A();
+		
+		obja1.getStudent();
+		
+		A obja2=new A();
+		
+		obja2.getStudent();
+		
+		A obja3=new A();
+		
+		obja3.getStudent();
+		
+		A obja4=new A();
+		
+		obja4.getStudent();
+		
+		A obja5=new A();
+		
+		obja5.getStudent();
+	}
+}
