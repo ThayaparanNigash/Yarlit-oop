@@ -1,0 +1,10 @@
+abstract class A{
+	int x;
+	A(){
+		x=10;
+	}
+	
+	abstract  void Display ();
+		System.out.println("this is display method")
+	
+}
